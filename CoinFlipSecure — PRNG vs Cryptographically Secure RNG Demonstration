@@ -1,0 +1,26 @@
+CoinFlipSecure is an interactive Python program designed to compare two types of random number generation methods through a simple coin flip game:
+PRNG (Pseudo-Random Number Generator): Uses Python’s standard random module, which produces deterministic sequences based on a seed.
+CSPRNG (Cryptographically Secure Pseudo-Random Number Generator): Uses Python’s secrets module, designed for cryptographic security and unpredictability.
+The program allows users to flip a virtual coin using either method, set the PRNG seed to demonstrate determinism, and observe how randomness differs between these approaches.
+
+Educational Purpose
+This tool was developed as part of a cryptography class demonstration and presentation. It serves to illustrate foundational concepts:
+Randomness in cryptography: The importance of using secure random numbers to prevent predictability in cryptographic keys and protocols.
+Determinism vs True Randomness: How PRNGs can be predictable if the seed is known, while CSPRNGs aim to provide unpredictability crucial for secure systems.
+By visually and interactively comparing the two methods through coin flips, this project makes abstract cryptographic concepts more tangible and accessible.
+
+Features
+Interactive menu-driven console application.
+Flip coin using either PRNG or CSPRNG.
+Set PRNG seed to reproduce deterministic results.
+ASCII art display of coin faces (Heads/Tails) for clear visualization.
+Demonstrates the practical difference in randomness quality.
+
+How to Use
+Run the script using Python 3.x.
+Choose between PRNG coin flip or CSPRNG coin flip.
+Optionally, set the PRNG seed to see how it affects outcomes.
+Exit when finished.
+
+Requirements
+Python 3.x
